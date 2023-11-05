@@ -14,9 +14,9 @@ public class App {
 
     private static int getConverter(){
         System.out.print("""
-                Press:
-                1 - If you want to convert miles to km.
-                2 - If you want to convert km to miles.
+                \uD83D\uDDA5\uFE0F  Press:
+                1\uFE0F\u20E3  to convert miles to km.
+                2\uFE0F\u20E3  to convert km to miles.
                 """);
         scanner = new Scanner(System.in);
         return scanner.nextInt();

@@ -9,7 +9,7 @@ public class AppView {
     public Input getData() {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
-        System.out.print("\nEnter value: ");
+        System.out.print("\n\u2714\uFE0F Enter value: ");
         double value = scanner.nextDouble();
         return new Input(value);
     }

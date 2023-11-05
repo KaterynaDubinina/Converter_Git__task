@@ -16,7 +16,9 @@ public class AppController {
         double value = input.getValue();
         String result = String.valueOf(modelA.convertValue(value));
 
-        String output = value + " mile(s) = " + result + " km";
+        String output = "\n" + value + " mile(s)" +
+                "\n\u2B07\uFE0F\u2B07\uFE0F\u2B07\uFE0F\u2B07\uFE0F\u2B07\uFE0F" +
+                "\n" + result + " km";
         view.getOutput(output);
     }
 
@@ -28,7 +30,9 @@ public class AppController {
         double value = input.getValue();
         String result = String.valueOf(modelB.convertValue(value));
 
-        String output = value + " km is equal to " + result + " miles";
+        String output = "\n" + value + " km" +
+                "\n\u2B07\uFE0F\u2B07\uFE0F\u2B07\uFE0F\u2B07\uFE0F\u2B07\uFE0F" +
+                "\n" + result + " miles";
         view.getOutput(output);
     }
 }
