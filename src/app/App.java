@@ -28,6 +28,10 @@ public class App {
                 AppController controller = new AppController();
                 controller.getMiles();
             }
+            case 2 -> {
+                AppController controller = new AppController();
+                controller.getKm();
+            }
             default -> System.out.println("No such option");
         }
     }
