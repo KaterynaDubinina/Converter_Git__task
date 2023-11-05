@@ -9,7 +9,7 @@ public class AppView {
     public Input getData() {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
-        System.out.print("Here you can convert miles to kilometers! \nEnter value: ");
+        System.out.print("Enter value to convert miles to km: ");
         double value = scanner.nextDouble();
         return new Input(value);
     }
