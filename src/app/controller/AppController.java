@@ -15,7 +15,7 @@ public class AppController {
         double value = input.getValue();
         String result = String.valueOf(modelA.convertValue(value));
 
-        String output = value + " mile(s) is equal to " + result + " km";
+        String output = value + " mile(s) = " + result + " km";
         view.getOutput(output);
     }
 }
